@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:"Times New Roman", Times, serif;
+	color:#57614E;
+	width: 100%;
+	height:100%;
+}
+ul{
+	list-style-type:none;
+}
+ul li{
+	float: left;
+}
+
+h1{
+    font: 29px/30px "Times New Roman",Times,serif;  
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+}
+
+h2{
+	color: #626262;
+    font: 19px/24px "Times New Roman",Times,serif;
+    letter-spacing: 2px;    
+    text-transform: uppercase;
+ }
+
+
+h4{
+	font:bold 12px/24px Arial,Helvetica,sans-serif;
+}
+
+a{
+	color:#626262;
+	opacity:0.8;
+}
+a:hover{
+	opacity: 1;
+	color:#333333;
+}
+
+
+p{
+
+	color: #626262;
+    font: 14px/24px Arial,Helvetica,sans-serif;    
+}
+
+#wrapper{
+	margin:0px auto;
+	width:960px;
+	overflow: hidden;
+
+	
+}
+#header{
+	background:url(../images/bg-header.jpg)  repeat-x left bottom #586141;
+	padding:45px 0 50px 0px;	
+}
+
+#header ul{
+	float:right;	
+    font: bold 14px/25px Times,"Times New Roman",serif;   
+    text-shadow: 1px 1px #000;
+    text-transform: uppercase;
+}
+
+#header ul li{	
+	display:block;
+	padding:25px 0 0 20px;	
+}
+#header ul li a{
+	text-decoration: none;
+    color: #b8c6ac;
+}
+#header li a.selected{
+	color:#FFFFFF;
+}
+#header ul li:last-child{
+	padding-right: 0px;
+}
+
+#content a{
+	color:#626262;
+}
+#content {
+	background-color: #E2E2E2;		
+	padding-top:25px;
+
+}
+
+#footer p{
+
+	font:12px/24px Arial,Helvetica,sans-serif;
+}
+
+#footer01{
+	background:url(../images/bg-footer.png) repeat-x left top #D9D9D9;
+}
+
+#footer01 ul li{	
+	padding:25px 30px 50px 40px;
+	width:256px;
+	border-right:solid 1px #C2C2C2;
+	height:150px;
+}
+#footer01 ul li:last-child{
+	border-right: none;
+}
+#footer01 ul li:first-child{
+	padding-left:10px;
+}
+
+#footer01 a{
+	background: url(../images/interface.png) no-repeat  -222px -38px;;	
+	width: 212px;
+	height:39px;
+	text-decoration: none;
+	padding-top: 5px;
+	color:#ffffff;
+	display: block;	
+	text-align: center;
+	font: 15px/30px Arial,Helvetica,sans-serif;
+}
+
+#footer01 a:hover{
+	background-position: 0 -38px;
+}
+
+#footer02{
+	background: url(../images/bg-footnote.jpg) repeat-x left top #4F5843;
+	padding:5px 0 10px 0;
+}
+#footer02 p{
+	float: right;
+	color: #b5c1aa;
+    font: 11px/30px Arial,Helvetica,sans-serif;
+}
+
+#footer02 ul li{
+	background: url(../images/icons.png) no-repeat;
+	padding:0px 22px 29px 0px;	
+	cursor: pointer;
+} 
+
+#footer02 ul li.facebook{background-position:0 -100px;}
+#footer02 ul li.twitter{background-position:0 -128px;}
+#footer02 ul li.google{background-position:0 -156px;}
+#footer02 ul li.pinterest{background-position:0 -184px;}
+

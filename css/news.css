@@ -1,0 +1,50 @@
+
+#news .box{
+	background: url(../images/frames.png) no-repeat 2px -235px;
+	width:590px;
+	height:260px;	
+	margin-left:35px;
+	padding:10px 0 0 10px;
+	margin-bottom: 20px;
+}
+
+#news .box blockquote{
+	float:right;
+	width:320px;
+	background: none;	
+	padding:30px 25px 20px 15px;
+	margin-right: 15px;
+
+}
+#news .box ol{
+	margin:0px;
+	padding:0px 0px 2px 0px;	
+	font-size: 11px;
+}
+
+#news .box ol span{
+	color:#755c02;
+}
+#news .box blockquote h2{
+	color: #728063;
+    letter-spacing: 0;
+    margin-bottom: 24px;
+}
+
+
+#news blockquote a{
+	float: right;
+	background: url(../images/interface.png) no-repeat -104px 1px;
+	display: block;
+	width:106px;
+	height:39px;
+	text-align: center;
+	font: 12px/28px Arial,Helvetica,sans-serif;
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
+
+#news blockquote a:hover{
+	background-position: 3px 1px;
+}

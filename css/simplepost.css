@@ -1,0 +1,23 @@
+
+#simplepost article{
+	width:375px;
+	float:right;	
+	padding-bottom: 400px;
+}
+#simplepost img{
+	margin-left: 35px;
+
+}
+
+#simplepost ol{
+	margin:0px;
+	padding:0px;
+	font-size: 11px;
+}
+
+#simplepost span{
+	color:#755c02;
+}
+#simplepost h2 {
+
+}

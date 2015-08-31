@@ -1,0 +1,71 @@
+#ourlayers #content ul li{
+	float: none;
+}
+
+blockquote ul,blockquote ol{
+	margin-bottom: 20px;
+}
+
+#sibar{
+	width:275px;
+	margin-right:10px;	
+}
+
+#sibar p:nth-of-type(3n+1){
+	background: url(../images/border.png) repeat-x left top;
+}
+
+#ourlayers blockquote{
+	float: right;	
+	width: 665px;		
+	background: url(../images/border.png) repeat-y left top;
+	padding-bottom:50px;
+	
+	
+}
+#sibar span{
+	float: right;
+}
+
+#ourlayers blockquote ul li article,#ourlayers blockquote ol article{
+	width:500px;
+	float: right;
+
+}
+
+#ourlayers h2{
+	margin-bottom: 15px;
+}
+
+#content ul,#content ol,blockquote h1{
+	padding-left:35px;
+}
+
+#outer{
+	background: url(../images/border.png) repeat-x left top;
+	padding-top: 20px;	
+}
+#inner{
+	background: url(../images/border.png) repeat-x left bottom;
+	padding-bottom: 3px;
+	margin-bottom: 15px;
+}
+blockquote ul li:first-of-type{
+	margin-bottom: 20px;
+}
+
+.box{
+	background:url(../images/frames.png) no-repeat 0px 0px;
+	width:95px;
+	padding:8px;
+}
+
+.box img{
+	background-color: #e7e7e7;
+    box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
+}
+
+blockquote article{
+	margin-top: 5px;
+}
+

@@ -1,0 +1,32 @@
+
+
+#about h1{	
+	margin-bottom: 10px;
+	
+}
+#about .box{
+	background: url(../images/frames.png) no-repeat 0px -519px;	
+	width:940px;
+	padding:5px 6px 5px 6px;	
+	margin-bottom:34px; 
+}
+#about #content img{
+	background-color: #e7e7e7;
+    box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
+   
+}
+
+#content h2:first-of-type{
+	margin-top:10px;
+	
+}
+#content h2{	
+    margin-top:20px;
+ }
+
+
+ #content p{
+	color: #626262;
+    font: 14px/24px Arial,Helvetica,sans-serif;    
+    
+}

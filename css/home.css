@@ -1,0 +1,149 @@
+article{
+	background-color:#E9E9E9;
+	
+}
+
+#home h1{
+   
+    line-height:1.5em;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+ }
+
+/**=================content01**************************/
+#content01{
+	padding:0px;
+	background-color:#E2E2E2;
+}
+
+#bgadbox{
+	background: url("../images/bg-adbox.png") no-repeat center bottom rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #fff; 
+    padding-top:20px;
+}
+
+#bgadbox #wrapper{
+	background: #FFFFFF;	
+	border: solid 1px #FFFFFF;
+}
+
+#bgadbox img{
+	float: right;
+}
+#home h1,#bgadbox blockquote p{
+	color: #4E5944;  
+}
+
+
+
+#bgadbox blockquote{
+	padding:70px 30px 130px 30px;
+	text-align: center;	
+	
+}
+
+#bgadbox blockquote p{	
+     font:25px/48px "Times New Roman",Times,serif;
+}
+/**=====================end=====================**/
+
+/**==================content02======================**/
+
+#content02{
+	background-color:#EEEEEE;
+	border:solid 1px #FFFFFF;
+} 
+
+#content02 blockquote{
+	background: url(../images/border.png) repeat-y left top;
+	float: right;
+	width:280px;	
+	padding:15px 20px 27px 25px;
+}
+
+#content02 h1{
+	margin:10px 10px 15px 5px;
+}
+
+p.spec{
+	margin:0px 15px 30px 5px;	
+	width:600px;
+}
+
+#content02 h2,#content03 h2{	
+    padding: 10px 0 20px 0px;
+ }
+ #content02 blockquote p span{
+ 	float: right;
+ }
+
+/**======================end============================**/
+
+#content03{
+	background-color:#E2E2E2;
+	border:solid 1px #FFFFFF;
+}
+
+#content03 h2{
+	margin:15px 0 10px 0;
+	color:#728063;
+}
+
+#content03 ul li{	
+	overflow: hidden;
+	width:220px;
+	margin-right:15px;
+	margin-bottom: 50px;
+}
+
+#content03 .box{
+	background:  url(../images/frames.png) no-repeat;
+	background-position: -118px 0px;
+	width:220px;	
+	padding:10px 20px 10px 10px;	
+}
+
+#content03 ul li:last-child{
+	margin-right: none;
+}
+
+#content03 ul img{
+	background-color: #e7e7e7;
+    box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#content03 blockquote{
+	margin-top: 10px;
+	line-height: 1.5em;
+}
+
+#content03 b{
+	text-transform: uppercase;
+}
+
+#content03 p{	
+    margin-bottom: 15px;
+}    
+
+	
+
+#content03  blockquote b{
+	 padding-bottom:15px;  
+
+}
+
+#content03 a{
+	background: url(../images/interface.png) no-repeat -104px 1px;
+	display: block;
+	width:106px;
+	height:39px;
+	text-align: center;
+	font: 15px/30px Arial,Helvetica,sans-serif; 
+	text-decoration: none;
+	color:#FFFFFF;
+}
+#content03 a:hover{
+	background-position: 3px 1px;
+}

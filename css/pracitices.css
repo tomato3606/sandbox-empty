@@ -1,0 +1,97 @@
+#pracitices #content ul li{
+	float: none;
+}
+
+blockquote {
+	float: right;
+	width:630px;	
+	padding-left:35px;
+	padding-bottom: 150px;
+	margin-bottom: 20px;
+	background: url(../images/border.png) repeat-y left top;
+
+}
+
+#pracitices blockquote p{
+	margin-bottom: 20px;
+}
+
+#pracitices ol .box{
+	display: inline-block;
+	background: url(../images/frames.png) no-repeat -608px -230px;	
+	padding: 15px 10px 10px 10px;	
+	margin-right: 23px;
+	position: relative;
+}
+.box a{
+	opacity: 1;
+}
+ol .box a span{
+	position: absolute;
+	display: block;
+	width: 265px;
+	height: 47px;
+	text-align: center;
+	line-height: 1.2em;
+	text-decoration: none;
+	color: #e2e2e2;
+	background-color:#696969;
+	font: 19px/46px "Times New Roman",Times,serif;
+	top:170px;
+	text-transform: uppercase; 
+}
+
+ol .box:hover a span{
+	background-color:#393939;
+}
+
+blockquote img{
+	background-color: #e7e7e7;
+    box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
+}
+
+#pracitices ol{
+	margin-bottom: 35px;
+}
+
+
+
+article h2{	
+	padding-bottom: 30px;
+	width:270px;
+}
+
+#content ul {		
+	width:270px;
+
+}
+#content ul li{
+	padding:10px 0px 20px 5px;
+	background: url(../images/border.png) repeat-x left top;
+}
+#content ul li:last-child{
+	
+}
+
+#content ul li a{
+	color: #755c02;
+    font: 13px/24px Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    background: none repeat scroll 0% 0% rgb(225, 224, 224);
+}
+
+ h2.last{
+	padding-top: 30px;	
+	padding-bottom:15px;
+	background: url(../images/border.png) repeat-x left top;
+	width:260px;
+}
+article p{
+	padding-top:10px;	
+	background: url(../images/border.png) repeat-x left top;
+	width:270px;
+}
+
+article p span{
+	float: right;
+}

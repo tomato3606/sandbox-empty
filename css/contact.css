@@ -1,0 +1,76 @@
+
+#contact  h2,#contact p,#contact form{
+	padding-left:35px;
+
+}
+
+#contact h2{
+	margin-bottom: 0px;
+}
+#contact form{
+	margin-top: 10px;
+}
+
+#sibar em{
+	font: 14px/24px Arial,Helvetica,sans-serif;
+	font-size: 19px;
+    font-style: normal;
+    display: block;
+}
+#sibar ul{
+	margin:0px;
+	padding: 0px;
+}
+
+#sibar ul li{
+	overflow: hidden;		
+	padding-bottom:15px;	
+}
+#sibar ul li span{
+	background: url(../images/icons.png) no-repeat 0 0px;		
+	width:20px;
+	height:20px;
+	float: left;
+}
+
+#sibar ul li.phone span{background-position: 0px -28px;}
+#sibar ul li.fax span{background-position:0px -56px;}
+#sibar ul li.email span{background-position: 0 -84px}
+
+
+
+
+
+#sibar ul li p:nth-of-type(3n+1){
+	float:right;
+	background: none;
+	width:247px;
+	text-align: left;
+}
+form label{
+	color: #626262;
+    display: block;
+    font: 13px/24px Arial,Helvetica,sans-serif;
+}
+form input[type="text"]{
+	height: 24px;
+    margin: 0 0 18px;
+    padding: 0 4px;
+    width: 590px;
+}
+form textarea{
+	width:590px;
+}
+form input[type="submit"]{
+	width:212px;
+	height:38px;
+	text-align: center;
+	text-transform: uppercase;
+	background: url(../images/interface.png) no-repeat  -222px -38px;
+	color:#ffffff;
+	cursor:pointer;
+	margin-top: 15px;
+}
+form input[type="submit"]:hover{
+	background-position: 0 -38px;
+}
